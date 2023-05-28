@@ -23,19 +23,21 @@ import Book from "./Book";
 // };
 
 const App = () => {
-  <div>
-    <h1>Favorite Book</h1>
-    <Book
-      title="The Alchemist"
-      author="Paul"
-      description="A masterpiece of fiction."
-    />
-    <Book
-      title="Bloodline"
-      author="Sidney Sheldon"
-      description="Roffe and Sons is a family firm, an international empire filled with desperate, cash-hungry family members."
-    />
-  </div>;
+  return (
+    <div>
+      <h1>Favorite Book</h1>
+      <Book
+        title="The Alchemist"
+        author="Paul"
+        description="A masterpiece of fiction."
+      />
+      <Book
+        title="Bloodline"
+        author="Sidney Sheldon"
+        description="Roffe and Sons is a family firm, an international empire filled with desperate, cash-hungry family members."
+      />
+    </div>
+  );
 };
 
 const container = document.getElementById("root");
