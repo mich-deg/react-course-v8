@@ -8,14 +8,14 @@
 //   ]);
 // };
 
-const Book = (props) => {
+const Pet = (props) => {
   return (
     <div>
-      <h1>{props.title}</h1>
-      <h2>{props.author}</h2>
-      <h2>{props.description}</h2>
+      <h1>{props.namr}</h1>
+      <h2>{props.animal}</h2>
+      <h2>{props.breed}</h2>
     </div>
   );
 };
 
-export default Book;
+export default Pet;
