@@ -42,7 +42,7 @@ const SearchParams = () => {
         <label htmlFor="breed">
           Breed
           <select
-            // disabled={!breeds.length}
+            disabled={!breeds.length}
             id="breed"
             value={breed}
             onChange={(e) => {
